@@ -21,6 +21,7 @@ body:
       label: Category
       description: Select the most appropriate category for this web app.
       options:
+        - Gaming
         - Game Streaming
         - Media & Streaming
         - Productivity

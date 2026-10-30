@@ -72,6 +72,11 @@ Other useful metadata used by existing entries includes `controller_template`,
 `author`, and `steamgriddb_search_term`. The compiler preserves these extra
 fields from `preset.json`.
 
+Gaming presets include browser-game catalogs such as Poki and CrazyGames, as
+well as individual games such as PokéBonk. Their controller needs vary by game;
+the catalog presets use `trackpad_mouse` as a general-purpose starting point,
+not a guarantee that every game supports a controller.
+
 Example:
 
 ```json

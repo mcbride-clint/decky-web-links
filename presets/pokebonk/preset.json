@@ -2,9 +2,9 @@
     "id":  "pokebonk",
     "title":  "PokéBonk",
     "category":  "Gaming",
-    "url":  "https://example.com/pokebonk",
+    "url":  "https://pokebonk.com/",
     "recommended_browser":  "com.google.Chrome",
-    "launch_flags":  "--kiosk --app=\"https://example.com/pokebonk\" --enable-gamepad",
+    "launch_flags":  "--kiosk --app=\"https://pokebonk.com/\"",
     "controller_template":  "WASD_keyboard",
     "author":  "WebShortcutsTeam",
     "artwork":  {
