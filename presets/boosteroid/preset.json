@@ -1,0 +1,18 @@
+{
+    "id":  "boosteroid",
+    "title":  "Boosteroid",
+    "category":  "Game Streaming",
+    "url":  "https://cloud.boosteroid.com",
+    "recommended_browser":  "com.google.Chrome",
+    "launch_flags":  "--kiosk --app=\"https://cloud.boosteroid.com\" --enable-gamepad --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"",
+    "controller_template":  "browser_gamepad",
+    "author":  "WebShortcutsTeam",
+    "artwork":  {
+                    "cover":  "assets/generic_cover.png",
+                    "grid":  "assets/generic_grid.png",
+                    "hero":  "assets/generic_hero.png",
+                    "logo":  "assets/generic_logo.png",
+                    "icon":  "assets/generic_icon.png"
+                },
+    "steamgriddb_search_term":  "Boosteroid"
+}

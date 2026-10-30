@@ -1,0 +1,18 @@
+{
+    "id":  "crunchyroll",
+    "title":  "Crunchyroll",
+    "category":  "Media \u0026 Streaming",
+    "url":  "https://www.crunchyroll.com",
+    "recommended_browser":  "com.google.Chrome",
+    "launch_flags":  "--kiosk --app=\"https://www.crunchyroll.com\"",
+    "controller_template":  "trackpad_mouse",
+    "author":  "WebShortcutsTeam",
+    "artwork":  {
+                    "cover":  "assets/generic_cover.png",
+                    "grid":  "assets/generic_grid.png",
+                    "hero":  "assets/generic_hero.png",
+                    "logo":  "assets/generic_logo.png",
+                    "icon":  "assets/generic_icon.png"
+                },
+    "steamgriddb_search_term":  "Crunchyroll"
+}

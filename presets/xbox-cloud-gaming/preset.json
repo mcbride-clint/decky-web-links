@@ -1,0 +1,18 @@
+{
+    "id":  "xbox-cloud-gaming",
+    "title":  "Xbox Cloud Gaming",
+    "category":  "Game Streaming",
+    "url":  "https://www.xbox.com/play",
+    "recommended_browser":  "com.microsoft.Edge",
+    "launch_flags":  "--kiosk --app=\"https://www.xbox.com/play\" --force-device-scale-factor=1.25 --enable-gamepad --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0\"",
+    "controller_template":  "browser_gamepad",
+    "author":  "WebShortcutsTeam",
+    "artwork":  {
+                    "cover":  "assets/generic_cover.png",
+                    "grid":  "assets/generic_grid.png",
+                    "hero":  "assets/generic_hero.png",
+                    "logo":  "assets/generic_logo.png",
+                    "icon":  "assets/generic_icon.png"
+                },
+    "steamgriddb_search_term":  "Xbox Cloud Gaming"
+}

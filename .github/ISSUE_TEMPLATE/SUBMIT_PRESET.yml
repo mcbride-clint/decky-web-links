@@ -1,0 +1,82 @@
+name: Submit Web App Preset
+description: Submit a new verified web application preset with launch flags and artwork URLs.
+title: "[Preset Submission]: "
+labels: ["preset-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a web shortcut preset to the community library! Please fill out the details below.
+  - type: input
+    id: title
+    attributes:
+      label: Web Application Title
+      description: What is the display name of the web application?
+      placeholder: e.g. Xbox Cloud Gaming
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the most appropriate category for this web app.
+      options:
+        - Game Streaming
+        - Media & Streaming
+        - Productivity
+        - Social & Chat
+        - Utility
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Web Application URL
+      description: The main URL to be launched by the browser.
+      placeholder: https://www.xbox.com/play
+    validations:
+      required: true
+  - type: dropdown
+    id: recommended_browser
+    attributes:
+      label: Recommended Browser
+      description: Which browser is tested and recommended for this web app?
+      options:
+        - com.microsoft.Edge (Microsoft Edge)
+        - com.google.Chrome (Google Chrome)
+        - org.mozilla.firefox (Mozilla Firefox)
+        - com.brave.Browser (Brave Browser)
+    validations:
+      required: true
+  - type: textarea
+    id: launch_flags
+    attributes:
+      label: Custom Launch Flags
+      description: Additional browser flags required (e.g. kiosk mode, scaling factor, gamepad flags).
+      value: --kiosk --app="https://www.xbox.com/play" --force-device-scale-factor=1.25 --enable-gamepad
+    validations:
+      required: true
+  - type: dropdown
+    id: controller_template
+    attributes:
+      label: Controller Template
+      description: Default controller layout profile to assign in Steam.
+      options:
+        - browser_gamepad (Full Gamepad / XInput emulation)
+        - trackpad_mouse (Trackpad Mouse + On-screen Keyboard)
+        - WASD_keyboard (WASD + Mouse Controls)
+    validations:
+      required: true
+  - type: textarea
+    id: artwork_urls
+    attributes:
+      label: Artwork Image URLs
+      description: Provide direct image URLs for Game Mode grid artwork (must meet dimension specs).
+      placeholder: |
+        Cover (600x900): https://...
+        Grid (920x430): https://...
+        Hero (3840x1240): https://...
+        Logo (PNG): https://...
+        Icon (256x256): https://...
+    validations:
+      required: false

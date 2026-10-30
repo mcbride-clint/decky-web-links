@@ -1,0 +1,37 @@
+name: Build and Publish Manifest
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'presets/**'
+      - 'scripts/**'
+      - '.github/workflows/build-manifest.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build Manifest JSON
+        run: |
+          python scripts/build_manifest.py
+
+      - name: Commit and Push Updated Manifest
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chrono: auto-generate manifest.json [skip ci]"
+          file_pattern: "dist/manifest.json"

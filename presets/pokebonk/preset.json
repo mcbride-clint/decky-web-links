@@ -1,0 +1,18 @@
+{
+    "id":  "pokebonk",
+    "title":  "PokéBonk",
+    "category":  "Gaming",
+    "url":  "https://example.com/pokebonk",
+    "recommended_browser":  "com.google.Chrome",
+    "launch_flags":  "--kiosk --app=\"https://example.com/pokebonk\" --enable-gamepad",
+    "controller_template":  "WASD_keyboard",
+    "author":  "WebShortcutsTeam",
+    "artwork":  {
+                    "cover":  "assets/generic_cover.png",
+                    "grid":  "assets/generic_grid.png",
+                    "hero":  "assets/generic_hero.png",
+                    "logo":  "assets/generic_logo.png",
+                    "icon":  "assets/generic_icon.png"
+                },
+    "steamgriddb_search_term":  "PokéBonk"
+}
