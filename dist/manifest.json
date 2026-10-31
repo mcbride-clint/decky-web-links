@@ -1,44 +1,7 @@
 {
-  "version": "1.1.0",
-  "total_presets": 16,
-  "updated_at": "2026-10-28",
+  "version": "1.0.0",
+  "total_presets": 18,
   "presets": [
-    {
-      "id": "xbox-cloud-gaming",
-      "title": "Xbox Cloud Gaming",
-      "category": "Game Streaming",
-      "url": "https://www.xbox.com/play",
-      "recommended_browser": "com.microsoft.Edge",
-      "launch_flags": "--kiosk --app=\"https://www.xbox.com/play\" --force-device-scale-factor=1.25 --enable-gamepad --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0\"",
-      "controller_template": "browser_gamepad",
-      "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "Xbox Cloud Gaming"
-    },
-    {
-      "id": "geforce-now",
-      "title": "NVIDIA GeForce NOW",
-      "category": "Game Streaming",
-      "url": "https://play.geforcenow.com",
-      "recommended_browser": "com.google.Chrome",
-      "launch_flags": "--kiosk --app=\"https://play.geforcenow.com\" --force-device-scale-factor=1.25 --enable-gamepad --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"",
-      "controller_template": "browser_gamepad",
-      "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "NVIDIA GeForce NOW"
-    },
     {
       "id": "amazon-luna",
       "title": "Amazon Luna",
@@ -48,13 +11,7 @@
       "launch_flags": "--kiosk --app=\"https://luna.amazon.com\" --enable-gamepad --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"",
       "controller_template": "browser_gamepad",
       "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
+      "artwork": {},
       "steamgriddb_search_term": "Amazon Luna"
     },
     {
@@ -66,68 +23,20 @@
       "launch_flags": "--kiosk --app=\"https://cloud.boosteroid.com\" --enable-gamepad --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"",
       "controller_template": "browser_gamepad",
       "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
+      "artwork": {},
       "steamgriddb_search_term": "Boosteroid"
     },
     {
-      "id": "youtube-tv",
-      "title": "YouTube TV / Leanback",
-      "category": "Media & Streaming",
-      "url": "https://www.youtube.com/tv",
+      "id": "crazygames",
+      "title": "CrazyGames",
+      "category": "Gaming",
+      "url": "https://www.crazygames.com/",
       "recommended_browser": "com.google.Chrome",
-      "launch_flags": "--kiosk --app=\"https://www.youtube.com/tv\" --force-device-scale-factor=1.25",
+      "launch_flags": "--kiosk --app=\"https://www.crazygames.com/\"",
       "controller_template": "trackpad_mouse",
       "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "YouTube TV / Leanback"
-    },
-    {
-      "id": "twitch",
-      "title": "Twitch",
-      "category": "Media & Streaming",
-      "url": "https://www.twitch.tv",
-      "recommended_browser": "com.google.Chrome",
-      "launch_flags": "--kiosk --app=\"https://www.twitch.tv\"",
-      "controller_template": "trackpad_mouse",
-      "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "Twitch"
-    },
-    {
-      "id": "netflix",
-      "title": "Netflix",
-      "category": "Media & Streaming",
-      "url": "https://www.netflix.com",
-      "recommended_browser": "com.google.Chrome",
-      "launch_flags": "--kiosk --app=\"https://www.netflix.com\"",
-      "controller_template": "trackpad_mouse",
-      "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "Netflix"
+      "artwork": {},
+      "steamgriddb_search_term": "CrazyGames"
     },
     {
       "id": "crunchyroll",
@@ -138,68 +47,8 @@
       "launch_flags": "--kiosk --app=\"https://www.crunchyroll.com\"",
       "controller_template": "trackpad_mouse",
       "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
+      "artwork": {},
       "steamgriddb_search_term": "Crunchyroll"
-    },
-    {
-      "id": "plex",
-      "title": "Plex Web App",
-      "category": "Media & Streaming",
-      "url": "https://app.plex.tv/desktop",
-      "recommended_browser": "com.google.Chrome",
-      "launch_flags": "--kiosk --app=\"https://app.plex.tv/desktop\"",
-      "controller_template": "trackpad_mouse",
-      "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "Plex Web App"
-    },
-    {
-      "id": "spotify",
-      "title": "Spotify Web Player",
-      "category": "Media & Streaming",
-      "url": "https://open.spotify.com",
-      "recommended_browser": "com.google.Chrome",
-      "launch_flags": "--app=\"https://open.spotify.com\"",
-      "controller_template": "trackpad_mouse",
-      "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "Spotify Web Player"
-    },
-    {
-      "id": "youtube-music",
-      "title": "YouTube Music",
-      "category": "Media & Streaming",
-      "url": "https://music.youtube.com",
-      "recommended_browser": "com.google.Chrome",
-      "launch_flags": "--app=\"https://music.youtube.com\"",
-      "controller_template": "trackpad_mouse",
-      "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "YouTube Music"
     },
     {
       "id": "discord",
@@ -210,32 +59,20 @@
       "launch_flags": "--app=\"https://discord.com/app\"",
       "controller_template": "trackpad_mouse",
       "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
+      "artwork": {},
       "steamgriddb_search_term": "Discord Web"
     },
     {
-      "id": "protondb",
-      "title": "ProtonDB",
-      "category": "Utility",
-      "url": "https://www.protondb.com",
+      "id": "geforce-now",
+      "title": "NVIDIA GeForce NOW",
+      "category": "Game Streaming",
+      "url": "https://play.geforcenow.com",
       "recommended_browser": "com.google.Chrome",
-      "launch_flags": "--app=\"https://www.protondb.com\"",
-      "controller_template": "trackpad_mouse",
+      "launch_flags": "--kiosk --app=\"https://play.geforcenow.com\" --force-device-scale-factor=1.25 --enable-gamepad --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"",
+      "controller_template": "browser_gamepad",
       "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "ProtonDB"
+      "artwork": {},
+      "steamgriddb_search_term": "NVIDIA GeForce NOW"
     },
     {
       "id": "howlongtobeat",
@@ -246,14 +83,68 @@
       "launch_flags": "--app=\"https://howlongtobeat.com\"",
       "controller_template": "trackpad_mouse",
       "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
+      "artwork": {},
       "steamgriddb_search_term": "HowLongToBeat"
+    },
+    {
+      "id": "netflix",
+      "title": "Netflix",
+      "category": "Media & Streaming",
+      "url": "https://www.netflix.com",
+      "recommended_browser": "com.google.Chrome",
+      "launch_flags": "--kiosk --app=\"https://www.netflix.com\"",
+      "controller_template": "trackpad_mouse",
+      "author": "WebShortcutsTeam",
+      "artwork": {},
+      "steamgriddb_search_term": "Netflix"
+    },
+    {
+      "id": "plex",
+      "title": "Plex Web App",
+      "category": "Media & Streaming",
+      "url": "https://app.plex.tv/desktop",
+      "recommended_browser": "com.google.Chrome",
+      "launch_flags": "--kiosk --app=\"https://app.plex.tv/desktop\"",
+      "controller_template": "trackpad_mouse",
+      "author": "WebShortcutsTeam",
+      "artwork": {},
+      "steamgriddb_search_term": "Plex Web App"
+    },
+    {
+      "id": "pokebonk",
+      "title": "Pok\u00e9Bonk",
+      "category": "Gaming",
+      "url": "https://pokebonk.com/",
+      "recommended_browser": "com.google.Chrome",
+      "launch_flags": "--kiosk --app=\"https://pokebonk.com/\"",
+      "controller_template": "WASD_keyboard",
+      "author": "WebShortcutsTeam",
+      "artwork": {},
+      "steamgriddb_search_term": "Pok\u00e9Bonk"
+    },
+    {
+      "id": "poki",
+      "title": "Poki",
+      "category": "Gaming",
+      "url": "https://poki.com/",
+      "recommended_browser": "com.google.Chrome",
+      "launch_flags": "--kiosk --app=\"https://poki.com/\"",
+      "controller_template": "trackpad_mouse",
+      "author": "WebShortcutsTeam",
+      "artwork": {},
+      "steamgriddb_search_term": "Poki"
+    },
+    {
+      "id": "protondb",
+      "title": "ProtonDB",
+      "category": "Utility",
+      "url": "https://www.protondb.com",
+      "recommended_browser": "com.google.Chrome",
+      "launch_flags": "--app=\"https://www.protondb.com\"",
+      "controller_template": "trackpad_mouse",
+      "author": "WebShortcutsTeam",
+      "artwork": {},
+      "steamgriddb_search_term": "ProtonDB"
     },
     {
       "id": "retrogames-cc",
@@ -264,32 +155,68 @@
       "launch_flags": "--kiosk --app=\"https://www.retrogames.cc\" --enable-gamepad",
       "controller_template": "WASD_keyboard",
       "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
+      "artwork": {},
       "steamgriddb_search_term": "RetroGames.cc"
     },
     {
-      "id": "pokebonk",
-      "title": "Pok\u00e9Bonk",
-      "category": "Gaming",
-      "url": "https://example.com/pokebonk",
+      "id": "spotify",
+      "title": "Spotify Web Player",
+      "category": "Media & Streaming",
+      "url": "https://open.spotify.com",
       "recommended_browser": "com.google.Chrome",
-      "launch_flags": "--kiosk --app=\"https://example.com/pokebonk\" --enable-gamepad",
-      "controller_template": "WASD_keyboard",
+      "launch_flags": "--app=\"https://open.spotify.com\"",
+      "controller_template": "trackpad_mouse",
       "author": "WebShortcutsTeam",
-      "artwork": {
-        "cover": "assets/generic_cover.png",
-        "grid": "assets/generic_grid.png",
-        "hero": "assets/generic_hero.png",
-        "logo": "assets/generic_logo.png",
-        "icon": "assets/generic_icon.png"
-      },
-      "steamgriddb_search_term": "Pok\u00e9Bonk"
+      "artwork": {},
+      "steamgriddb_search_term": "Spotify Web Player"
+    },
+    {
+      "id": "twitch",
+      "title": "Twitch",
+      "category": "Media & Streaming",
+      "url": "https://www.twitch.tv",
+      "recommended_browser": "com.google.Chrome",
+      "launch_flags": "--kiosk --app=\"https://www.twitch.tv\"",
+      "controller_template": "trackpad_mouse",
+      "author": "WebShortcutsTeam",
+      "artwork": {},
+      "steamgriddb_search_term": "Twitch"
+    },
+    {
+      "id": "xbox-cloud-gaming",
+      "title": "Xbox Cloud Gaming",
+      "category": "Game Streaming",
+      "url": "https://www.xbox.com/play",
+      "recommended_browser": "com.microsoft.Edge",
+      "launch_flags": "--kiosk --app=\"https://www.xbox.com/play\" --force-device-scale-factor=1.25 --enable-gamepad --user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0\"",
+      "controller_template": "browser_gamepad",
+      "author": "WebShortcutsTeam",
+      "artwork": {},
+      "steamgriddb_search_term": "Xbox Cloud Gaming"
+    },
+    {
+      "id": "youtube-music",
+      "title": "YouTube Music",
+      "category": "Media & Streaming",
+      "url": "https://music.youtube.com",
+      "recommended_browser": "com.google.Chrome",
+      "launch_flags": "--app=\"https://music.youtube.com\"",
+      "controller_template": "trackpad_mouse",
+      "author": "WebShortcutsTeam",
+      "artwork": {},
+      "steamgriddb_search_term": "YouTube Music"
+    },
+    {
+      "id": "youtube-tv",
+      "title": "YouTube TV / Leanback",
+      "category": "Media & Streaming",
+      "url": "https://www.youtube.com/tv",
+      "recommended_browser": "com.google.Chrome",
+      "launch_flags": "--kiosk --app=\"https://www.youtube.com/tv\" --force-device-scale-factor=1.25",
+      "controller_template": "trackpad_mouse",
+      "author": "WebShortcutsTeam",
+      "artwork": {},
+      "steamgriddb_search_term": "YouTube TV / Leanback"
     }
   ]
 }
